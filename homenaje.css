@@ -20,6 +20,7 @@ main {
 }
 #part-two {
   background-color: rgb(159, 130, 0);
+  text-align: justify;
 }
 a {
   padding-right: 0;
