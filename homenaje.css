@@ -23,6 +23,7 @@ main {
 }
 a {
   padding-right: 0;
+  color: black;
 }
 
 img {
@@ -31,5 +32,4 @@ img {
 #barra-menu {
   display: flex;
   list-style: none;
-  align-items: flex-start;
 }
