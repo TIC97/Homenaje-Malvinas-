@@ -13,6 +13,8 @@ main {
   margin: 30px 200px 0px 200px;
   background-color: rgb(159, 130, 0);
   font-size: 20px;
+  line-height: 25px;
+  font-weight: bold;
 }
 .part-one {
   text-align: center;
