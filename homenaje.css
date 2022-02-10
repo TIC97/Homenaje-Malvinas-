@@ -31,6 +31,9 @@ a {
 img {
   margin: auto;
 }
+.img-part-two {
+  float: right;
+}
 #barra-menu {
   display: flex;
   list-style: none;
