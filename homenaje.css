@@ -3,11 +3,21 @@ body {
   font-family: 'The Nautigal', cursiva;
   text-align: center;
   margin: 0;
+  text-decoration: none;
 }
 
 main {
   background-color: rgb(212, 190, 106);
-  padding: 0;
+  padding: 10px;
+}
+#barra-menu {
+  display: flex;
+  list-style: none;
+  padding: 0px 10px;
+  margin: 10px;
+}
+.barra-menu{
+  margin: 5px;
 }
 #part-1 {
   margin: 30px 200px 0px 200px;
@@ -15,6 +25,8 @@ main {
   font-size: 20px;
   line-height: 25px;
   font-weight: bold;
+  margin: 40px 300px 50px 300px;
+  padding: 1px 10px 1px 10px;
 }
 .part-one {
   text-align: center;
@@ -23,18 +35,18 @@ main {
   background-color: rgb(159, 130, 0);
   text-align: justify;
 }
-a {
-  padding-right: 0;
-  color: black;
+.part-two {
+  padding: 15px 0px 15px 25px;
+}
+a:link, a:visited,  a:hover, a:active {
+  color: #000000;
+  text-decoration: none;
 }
 
 img {
   margin: auto;
+  text-decoration: none;
 }
 .img-part-two {
   float: right;
-}
-#barra-menu {
-  display: flex;
-  list-style: none;
 }
