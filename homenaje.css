@@ -45,8 +45,14 @@ a:link, a:visited,  a:hover, a:active {
 
 img {
   margin: auto;
-  text-decoration: none;
 }
 .img-part-two {
-  float: right;
+  display: flex;
+  margin-right: 0;
+  justify-content: right;
+}
+.img-two {
+  width: 400px; 
+  height: 200px;
+  margin: 10px;
 }
