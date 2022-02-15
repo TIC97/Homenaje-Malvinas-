@@ -34,9 +34,11 @@ main {
 #part-two {
   background-color: rgb(159, 130, 0);
   text-align: justify;
+  padding: 5px 10px 300px 10px;
+  margin: 15px;
 }
 .part-two {
-  padding: 15px 0px 15px 25px;
+  
 }
 a:link, a:visited,  a:hover, a:active {
   color: #000000;
