@@ -33,7 +33,7 @@ main {
 }
 #part-two {
   background-color: rgb(159, 130, 0);
-  text-align: justify;
+  text-align: left;
   padding: 5px 10px 300px 10px;
   margin: 15px;
 }
@@ -48,13 +48,9 @@ a:link, a:visited,  a:hover, a:active {
 img {
   margin: auto;
 }
-.img-part-two {
-  display: flex;
-  margin-right: 0;
-  justify-content: right;
-}
+/*por el text-alig no me deja mover la imagen si lo desactivo se mueve esta enlazado probar como separarlos.*/
 .img-two {
-  width: 400px; 
-  height: 200px;
+  width: 275px;
+  height: 183px;
   margin: 10px;
 }
