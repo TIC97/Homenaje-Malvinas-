@@ -7,17 +7,20 @@ body {
 }
 
 main {
-  background-color: rgb(212, 190, 106);
-  padding: 10px;
+  background-color: rgb(212, 190, 106);;
 }
 #barra-menu {
   display: flex;
   list-style: none;
-  padding: 0px 10px;
-  margin: 10px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  background-color: rgb(159, 130, 0);
 }
 .barra-menu{
-  margin: 5px;
+  margin-left: 10px;
+}
+.menu-derecho {
+  padding-right: 0px;
 }
 #part-1 {
   margin: 30px 200px 0px 200px;
@@ -31,13 +34,12 @@ main {
 .part-one {
   text-align: center;
 }
-#part-two {
-  background-color: rgb(159, 130, 0);
-  text-align: left;
-  padding: 5px 10px 300px 10px;
-  margin: 15px;
-}
+/*Hay que cambiar el padding supongo para que los puntos quedesn mas cerca de recuadro*/
 .part-two {
+  background-color: rgb(159, 130, 0);
+  text-align: justify;
+  padding: 10px 10px 90px 1px;
+  margin: 15px;
   
 }
 a:link, a:visited,  a:hover, a:active {
@@ -48,9 +50,12 @@ a:link, a:visited,  a:hover, a:active {
 img {
   margin: auto;
 }
-/*por el text-alig no me deja mover la imagen si lo desactivo se mueve esta enlazado probar como separarlos.*/
 .img-two {
   width: 275px;
   height: 183px;
   margin: 10px;
+  float: right;
+}
+.img-two-two {
+  clear: right;
 }
