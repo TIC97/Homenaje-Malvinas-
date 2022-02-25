@@ -19,6 +19,11 @@ main {
 .barra-menu{
   margin-left: 10px;
 }
+
+/*No puedo poner login y register a la derecha.
+Creo que tengo que copiar estilos y ponerlos en las 2 partes 
+ES POSIBLE QUE TENGA QUE REHACER TODO*/
+
 .menu-derecho {
   padding-right: 0px;
 }
