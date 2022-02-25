@@ -38,9 +38,12 @@ main {
 .part-two {
   background-color: rgb(159, 130, 0);
   text-align: justify;
-  padding: 10px 10px 90px 1px;
+  padding: 8px 10px 10px 1px;
   margin: 15px;
-  
+}
+ul {
+  margin: 5px 0px 20px 0px;
+  line-height: 25px;
 }
 a:link, a:visited,  a:hover, a:active {
   color: #000000;
@@ -53,7 +56,8 @@ img {
 .img-two {
   width: 275px;
   height: 183px;
-  margin: 10px;
+  margin: 15px;
+  margin-top: 25px;
   float: right;
 }
 .img-two-two {
