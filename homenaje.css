@@ -38,11 +38,11 @@ main {
 .part-two {
   background-color: rgb(159, 130, 0);
   text-align: justify;
-  padding: 8px 10px 10px 1px;
-  margin: 15px;
+  padding: 8px 10px 5px 1px;
+  margin: 40px;
 }
 ul {
-  margin: 5px 0px 20px 0px;
+  margin: 5px 0px 10px 0px;
   line-height: 25px;
 }
 a:link, a:visited,  a:hover, a:active {
@@ -57,7 +57,7 @@ img {
   width: 275px;
   height: 183px;
   margin: 15px;
-  margin-top: 25px;
+  margin-top: 23px;
   float: right;
 }
 .img-two-two {
