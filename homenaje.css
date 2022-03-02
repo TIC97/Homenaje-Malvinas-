@@ -1,3 +1,6 @@
+html ::-webkit-scrollbar {
+  width: 0;
+}
 body {
   background-color: rgb(159, 130, 0);
   font-family: 'The Nautigal', cursiva;
@@ -12,21 +15,19 @@ main {
 #barra-menu {
   display: flex;
   list-style: none;
-  padding-left: 5px;
-  padding-bottom: 10px;
+  padding: 0;
   background-color: rgb(159, 130, 0);
 }
-.barra-menu{
-  margin-left: 10px;
+.menu-left {
+  margin: 5px 10px 10px 10px;
+}
+.menu-right {
+  margin: 5px 20px 0px 920px;
+}
+.menu-login {
+  margin-top: 5px;
 }
 
-/*No puedo poner login y register a la derecha.
-Creo que tengo que copiar estilos y ponerlos en las 2 partes 
-ES POSIBLE QUE TENGA QUE REHACER TODO*/
-
-.menu-derecho {
-  padding-right: 0px;
-}
 #part-1 {
   margin: 30px 200px 0px 200px;
   background-color: rgb(159, 130, 0);
@@ -39,7 +40,7 @@ ES POSIBLE QUE TENGA QUE REHACER TODO*/
 .part-one {
   text-align: center;
 }
-/*Hay que cambiar el padding supongo para que los puntos quedesn mas cerca de recuadro*/
+
 .part-two {
   background-color: rgb(159, 130, 0);
   text-align: justify;
