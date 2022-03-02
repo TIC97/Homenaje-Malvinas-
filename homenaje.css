@@ -16,6 +16,7 @@ main {
   display: flex;
   list-style: none;
   padding: 0;
+  margin-left: 0;
   background-color: rgb(159, 130, 0);
 }
 .menu-left {
@@ -27,17 +28,14 @@ main {
 .menu-login {
   margin-top: 5px;
 }
-
-#part-1 {
+.part-one {
   margin: 30px 200px 0px 200px;
   background-color: rgb(159, 130, 0);
   font-size: 20px;
   line-height: 25px;
   font-weight: bold;
   margin: 40px 300px 50px 300px;
-  padding: 1px 10px 1px 10px;
-}
-.part-one {
+  padding: 5px 10px 5px 10px;  
   text-align: center;
 }
 
@@ -48,7 +46,7 @@ main {
   margin: 40px;
 }
 ul {
-  margin: 5px 0px 10px 0px;
+  margin: 5px 0px 10px 1px;
   line-height: 25px;
 }
 a:link, a:visited,  a:hover, a:active {
